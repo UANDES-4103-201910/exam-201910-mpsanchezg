@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root :to => "home#index"
   get 'home/index'
   resources :order_billing_addresses
   resources :order_shipping_addresses

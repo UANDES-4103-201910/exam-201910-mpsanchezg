@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Order:</strong>
+  <%= @order_billing_address.order %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @order_billing_address.address %>
+</p>
+
+<%= link_to 'Edit', edit_order_billing_address_path(@order_billing_address) %> |
+<%= link_to 'Back', order_billing_addresses_path %>

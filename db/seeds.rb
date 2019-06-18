@@ -13,10 +13,10 @@ product3 = Product.create(brand: 'brand2', model: 'model2', variant: '', price: 
 product4 = Product.create(brand: 'brand2', model: 'model3', variant: '', price: '20000', short_description: 'short_desc_4', long_description: 'long_desc4')
 product5 = Product.create(brand: 'brand3', model: 'model4', variant: '', price: '20000', short_description: 'short_desc_5', long_description: 'long_desc5')
 
-user1 = User.create(first_name: 'first_name1', last_name: 'last_name1', email: 'email1@example.com')
-user2 = User.create(first_name: 'first_name2', last_name: 'last_name2', email: 'email2@example.com')
-user3 = User.create(first_name: 'first_name3', last_name: 'last_name3', email: 'email3@example.com')
-user4 = User.create(first_name: 'first_name4', last_name: 'last_name4', email: 'email4@example.com')
+user1 = User.create(first_name: 'first_name1', last_name: 'last_name1', email: 'email1@example.com', password:'123123')
+user2 = User.create(first_name: 'first_name2', last_name: 'last_name2', email: 'email2@example.com', password:'123123')
+user3 = User.create(first_name: 'first_name3', last_name: 'last_name3', email: 'email3@example.com', password:'123123')
+user4 = User.create(first_name: 'first_name4', last_name: 'last_name4', email: 'email4@example.com', password:'123123')
 
 address1 = Address.create(phone: 123456, address_line_1: 'address line 1', address_line_2: 'address line 2',
                           city: 'city1', country: 'country1', zip_code: 12300, user: user1)
